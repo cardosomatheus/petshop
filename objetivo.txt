@@ -1,0 +1,67 @@
+        !!! Requisitos do Cliente – Banco de Dados PetShop !!!
+
+O cliente deseja um banco de dados para gerenciar todas as operações de seu PetShop, incluindo cadastro de clientes, pets, produtos, serviços e funcionários. A seguir, estão os principais requisitos e funcionalidades identificadas:
+
+1. Clientes:
+    .Armazenar informações básicas: nome, CPF, e-mail, telefone e endereço.
+    .Possibilitar o relacionamento de cada cliente com seus pets.
+
+2. Pets:
+    .Cada pet deve estar vinculado a um cliente.
+    .Informações necessárias: nome, espécie (cão, gato, pássaro, etc.), raça, idade, peso e altura.
+    .Registrar dados adicionais: vacinas, histórico de consultas e tratamentos.
+
+3. Serviços:
+    .Serviços oferecidos: banho, tosa, massagem, consultas veterinárias e vacinação.
+    .Para cada serviço, armazenar: nome, descrição, valor e tempo estimado de execução.
+    .Registrar a realização de serviços para cada pet.
+
+4. Produtos:
+    .Produtos comercializados: rações, acessórios, medicamentos e brinquedos.
+    .Informações necessárias: nome, categoria, preço, marca, quantidade em estoque e fornecedor.
+
+5. Funcionários:
+    .Registrar informações: nome, cargo, telefone, e-mail.
+    .Manter histórico de serviços realizados por cada funcionário.
+
+6. Agendamento:
+    .Gerenciar agendamentos de serviços, associando:
+    .Data e horário
+    .Pet
+    .Serviço
+    .Funcionário responsável
+
+7. Controle Financeiro:
+    .Registrar vendas de produtos e serviços.
+    .Associar cada venda ao cliente e, quando aplicável, ao pet.
+    .Armazenar detalhes da transação: data, valor e forma de pagamento.
+
+8. Relatórios e Consultas:
+    Gerar relatórios sobre:
+        .Clientes
+        .Pets
+        .Produtos em estoque
+        .Serviços realizados
+        .Faturamento
+        .Satisfação
+
+    Consultas rápidas para identificar:
+        .Pets que precisam de vacinas
+        .Produtos com baixo estoque
+        .Histórico de serviços por pet ou funcionário.
+    Gerar Views:
+        .serviços
+        .pets
+        .funcionários
+        .clientes
+        .produtos
+        .agendamentos
+
+9. Pesquisa de Satisfação:
+    .Permitir que clientes avaliem os serviços prestados com nota de 1 a 10.
+
+10. Segurança e Integridade:
+    .Garantir integridade das informações, evitando dados duplicados ou inconsistentes.
+
+11. Envio de relatórios por email.
+    
