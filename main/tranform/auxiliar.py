@@ -15,6 +15,7 @@ def remover_special_caracter(texto):
     return re.sub(r'[^A-Za-z0-9 ]+', '', texto)
 
 
+
 #texto  = 'JOç~~/8iiiRãõ!GE. JLL'
 #print(remove_accentuation(text=texto))
 

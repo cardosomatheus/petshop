@@ -2,6 +2,7 @@ from faker import Faker
 
 fake = Faker('pt_BR')
 
+
 def create_many_clients(quantidade: int = 10) -> list:
     """Cria clientes de acordo com o parametro 'quantidade'."""
     if not isinstance(quantidade, int):

@@ -12,7 +12,6 @@ def add_email_to_client(list_client: list=[]) -> None:
 
 
 
-
 clientes = [
     {'nome': 'Asafe Caldeira', 'cpf_cnpj': '052.194.387-60', 'telefone': '+55 81 9 4821-6971'}, 
     {'nome': 'Sr. Marcos Vinicius da Cunha', 'cpf_cnpj': '319.085.476-93', 'telefone': '+55 (073) 93332 6783'}
