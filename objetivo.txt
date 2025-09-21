@@ -46,7 +46,6 @@ A seguir, estão os principais requisitos e funcionalidades identificadas:
     Gerar relatórios sobre:
         .Clientes
         .Pets
-        .Produtos em estoque
         .Serviços realizados
         .Faturamento
         .Satisfação
