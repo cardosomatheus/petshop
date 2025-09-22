@@ -1,10 +1,11 @@
-from auxiliar import remove_accentuation
+from auxiliar import remove_accentuation,remove_special_caracter
 
 
 def add_email_to_client(list_client: list=[]) -> None:
     "Cria um email para cliente baseado no nome do cliente "
     for cliente in list_client:
         nome_sem_acento = remove_accentuation(cliente.get('nome')).lower().replace(' ','')
+        nome_sem_acento = remove_special_caracter(nome_sem_acento)
 
         if nome_sem_acento is not None:
             email = nome_sem_acento+'@example.com'
